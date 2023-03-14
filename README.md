@@ -15,7 +15,9 @@ In order to get real life descriptions of peoples pain I have scraped from a var
 On this data I have trained the text generation model, distilgpt2 to generate prompts to use in a stable diffusion model. 
 
 
+## THE DATASET 
 
+OBS: The data is cleaned, but it needs to be viewed on an JSON viewer to format properly. 
 
 
 
