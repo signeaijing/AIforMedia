@@ -13,6 +13,7 @@ This project interrogates how we are expected to talk about our pain versus how 
 To generate the images for the new pain chart I have been using a stable diffusion model, that takes a text input and based on that generates an image. I thought of finetuning this model, but ended up fine tuning a text generation model instead, because I don't want to assume or put any of my own ideas of descriptions of pain into the model.   
 In order to get real life descriptions of peoples pain I have scraped from a variety of subreddits revolving pain and treatments, some of them are specifically of backpain or kneepain, some of them are for people living with migraines or chronic pain in any form. 
 On this data I have trained the text generation model, distilgpt2 to generate prompts to use in a stable diffusion model. 
+The stable diffusion model is a demo model from: https://github.com/kjsman/stable-diffusion-pytorch
 
 
 ## THE DATASET 
